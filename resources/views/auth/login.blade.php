@@ -65,6 +65,25 @@
                                     </div>
                                 </div>
                             </div>
+                            <div class="row mb-3 d-flex align-items-center">
+                                <div class="col-6 login_remember">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" name="remember"
+                                               id="remember" {{ old('remember') ? 'checked' : '' }}>
+
+                                        <label class="form-check-label" for="remember">
+                                            {{ __('Remember Me') }}
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-6 login_password_request text-end">
+                                    @if (Route::has('password.request'))
+                                        <a class="text-danger" href="{{ route('password.request') }}">
+                                            {{ __('Forgot Password?') }}
+                                        </a>
+                                    @endif
+                                </div>
+                            </div>
                             <div class="row mb-0">
                                 <button type="submit" class="btn-sign_up">
                                     {{ __('Sign In') }}
