@@ -1,4 +1,52 @@
+a {
+    text-decoration: none!important;
+}
+
 /* Start register.blade */
+.register_routs{
+    width: fit-content;
+    padding: 1rem;
+}
+
+.btn_eye {
+    background-color: #f8fafc!important;
+}
+
+.reg_sign_in {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #404041;
+}
+
+.reg_sign_up {
+    background: #3F9F9E;
+    border-radius: 24px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding: 12px;
+}
+
+.register_logo_test{
+    font-family: 'Ulm Grotesk';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 47px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.register_logo_test span {
+    color: #BDEADC;
+}
+
 .sign_up_title {
     font-family: 'Lato', sans-serif;
     font-style: normal;
@@ -24,4 +72,43 @@
     padding: 25px;
     margin-top: 80px!important;
 }
+
+.btn-sign_up_google {
+    background: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    border-radius: 100px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #666666;
+    padding: 25px;
+    margin-top: 20px!important;
+}
+
+.btn-sign_up_google img {
+    margin-right: 15px;
+}
+
+.sign_up_footer {
+    background: #0F4743;
+    border-radius: 0px 0px 8px 8px;
+}
+
+.sign_up_footer_text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 20px;
+}
+
+.sign_up_footer_text span {
+    color: #BDEADC;
+}
+
 /* End register.blade */
