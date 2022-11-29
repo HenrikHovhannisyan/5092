@@ -1,15 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lato&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital@1&display=swap');
+
 a {
-    text-decoration: none!important;
+    text-decoration: none !important;
 }
 
+/* Start Nav bar */
+._nabar {
+    background-color: #0F4743;
+}
+
+.nav_logo {
+    max-width: 108px;
+}
+
+.nav_link {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-right: 3.125vw;
+}
+
+.nav_link_active {
+    background: #3F9F9E;
+    border-radius: 24px;
+    color: #0F4743;
+    width: fit-content;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.avatar_dropdown-toggle::after {
+    display: none;
+}
+
+.inputSearch {
+    max-width: 155px;
+}
+
+.inputSearch input:focus,
+.inputSearch input {
+    background-color: transparent;
+    color: #BDEADC;
+}
+
+.fa-shopping-cart,
+.inputSearch .fa {
+    color: #BDEADC;
+}
+
+.inputSearch input::placeholder {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #BDEADC;
+}
+
+.inputSearch .form-control {
+    border-right: 0px;
+    border-radius: 20px 0 0 20px;
+}
+
+.inputSearch .form-control:focus,
+.inputSearch .form-control:focus {
+    outline: none !important;
+    border-color: #ced4da;
+}
+
+.inputSearch .input-group-text {
+    background-color: transparent;
+    border-left: 0px;
+    border-radius: 0 20px 20px 0;
+}
+
+/* End Nav bar */
+
 /* Start register.blade */
-.register_routs{
+.register_routs {
     width: fit-content;
     padding: 1rem;
 }
 
 .btn_eye {
-    background-color: #f8fafc!important;
+    background-color: #f8fafc !important;
 }
 
 .reg_sign_in {
@@ -33,7 +110,7 @@ a {
     padding: 12px;
 }
 
-.register_logo_test{
+.register_logo_test {
     font-family: 'Ulm Grotesk';
     font-style: normal;
     font-weight: 800;
@@ -70,7 +147,7 @@ a {
     line-height: 27px;
     color: #FFFFFF;
     padding: 25px;
-    margin-top: 80px!important;
+    margin-top: 80px !important;
 }
 
 .btn-sign_up_google {
@@ -84,7 +161,7 @@ a {
     line-height: 21px;
     color: #666666;
     padding: 25px;
-    margin-top: 20px!important;
+    margin-top: 20px !important;
 }
 
 .btn-sign_up_google img {
