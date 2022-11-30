@@ -5,7 +5,7 @@
 
 @section('content')
     <div class="container-fluid d-flex justify-content-center align-items-center"
-         style="background-image: url({{ asset('img/bg-register.png') }}); height: 100vh">
+         style="background-image: url({{ asset('img/bg-register.png') }}); padding: 50px 0">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-6 text-center">

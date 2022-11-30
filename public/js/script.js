@@ -1,3 +1,16 @@
+$(document).ready(function($) {
+    $("#sync1").owlCarousel({
+        navigation : true,
+        slideSpeed : 300,
+        paginationSpeed : 500,
+        items: 1,
+        singleItem: true,
+        autoPlay : 4000
+    });
+});
+
+/* Start register.blade */
+
 let btn = document.querySelector('#btn_eye');
 let input = document.querySelector('#password');
 
@@ -35,3 +48,7 @@ btn_confirm.addEventListener('click',()=> {
         $('.c_fa_eye-slash').removeClass('d-block');
     }
 })
+
+/* End register.blade */
+
+
